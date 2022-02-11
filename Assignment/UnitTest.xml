@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UnitTest">
+	
+	<test name="CombinationOfSteps">
+		<classes>
+			<class name="JavaAssignments.CombinationOfSteps" />
+		</classes>
+	</test>
+	<test name="Amazon">
+		<classes>
+			<class name="JavaAssignments.SearchForProducts" />
+		</classes>
+	</test>
+	<!-- <test name="CSV_Write_Read_Update">
+		<classes>
+			<class name="JavaAssignments.CSVReadWrite" />
+		</classes>
+	</test> -->
+</suite>

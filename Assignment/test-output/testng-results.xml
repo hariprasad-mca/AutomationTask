@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-11T12:10:38 CST" name="UnitTest" finished-at="2022-02-11T12:11:26 CST" duration-ms="48139">
+    <groups>
+    </groups>
+    <test started-at="2022-02-11T12:10:38 CST" name="CombinationOfSteps" finished-at="2022-02-11T12:10:38 CST" duration-ms="40">
+      <class name="JavaAssignments.CombinationOfSteps">
+        <test-method signature="combinationOfSteps()[pri:0, instance:JavaAssignments.CombinationOfSteps@39529185]" started-at="2022-02-11T12:10:38 CST" name="combinationOfSteps" finished-at="2022-02-11T12:10:38 CST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- combinationOfSteps -->
+      </class> <!-- JavaAssignments.CombinationOfSteps -->
+    </test> <!-- CombinationOfSteps -->
+    <test started-at="2022-02-11T12:10:38 CST" name="Amazon" finished-at="2022-02-11T12:11:26 CST" duration-ms="48042">
+      <class name="JavaAssignments.SearchForProducts">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:JavaAssignments.SearchForProducts@7f0eb4b4]" started-at="2022-02-11T12:10:38 CST" name="setUp" finished-at="2022-02-11T12:10:43 CST" duration-ms="4490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest(java.lang.String)[pri:1, instance:JavaAssignments.SearchForProducts@7f0eb4b4]" started-at="2022-02-11T12:10:43 CST" name="loginPageTitleTest" data-provider="data-provider" finished-at="2022-02-11T12:10:55 CST" duration-ms="11759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bluetooth headset]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageTitleTest(java.lang.String)[pri:1, instance:JavaAssignments.SearchForProducts@7f0eb4b4]" started-at="2022-02-11T12:10:55 CST" name="loginPageTitleTest" data-provider="data-provider" finished-at="2022-02-11T12:11:05 CST" duration-ms="10806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[34 inch LED monitor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageTitleTest(java.lang.String)[pri:1, instance:JavaAssignments.SearchForProducts@7f0eb4b4]" started-at="2022-02-11T12:11:05 CST" name="loginPageTitleTest" data-provider="data-provider" finished-at="2022-02-11T12:11:16 CST" duration-ms="10457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USB c dock]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageTitleTest(java.lang.String)[pri:1, instance:JavaAssignments.SearchForProducts@7f0eb4b4]" started-at="2022-02-11T12:11:16 CST" name="loginPageTitleTest" data-provider="data-provider" finished-at="2022-02-11T12:11:26 CST" duration-ms="10517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smart watch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+      </class> <!-- JavaAssignments.SearchForProducts -->
+    </test> <!-- Amazon -->
+  </suite> <!-- UnitTest -->
+</testng-results>
